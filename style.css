@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 25px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -818,11 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/assets/agence-la-panthere.png");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/assets/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/* Ajout de nouvelles class */
+.size {
+    font-size: 25px;
 }
